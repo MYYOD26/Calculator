@@ -2,7 +2,7 @@ import flet as ft
 
 def main(page: ft.Page):
     page.title = "Calculator"
-    page.bgcolor = "#3560C5"
+    page.bgcolor = "#B3CB5D"
     page.window_width = 350
     page.window_height = 200
     page.padding = 10
