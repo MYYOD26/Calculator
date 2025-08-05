@@ -4,7 +4,7 @@ def main(page: ft.Page):
     page.title = "Calculator"
     page.bgcolor = "#B3CB5D"
     page.window.width = 350
-    page.window.height = 200
+    page.window.height = 450
     page.padding = 10
     page.update()
 
