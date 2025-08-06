@@ -2,7 +2,7 @@ import flet as ft
 
 def main(page: ft.Page):
     page.title = "Calculator"
-    page.bgcolor = "#B3CB5D"
+    page.bgcolor = "#CE8D24"
     page.window.width = 350
     page.window.height = 450
     page.padding = 10
@@ -14,7 +14,7 @@ def main(page: ft.Page):
 
     def delete_last(e):
         nonlocal all_values
-        all_values = all_values[:-1]  # ลบตัวสุดท้าย
+        all_values = all_values[:-1] 
         result_text.value = all_values if all_values else "0"
         page.update()
     def entering_values(e):
